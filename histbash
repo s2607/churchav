@@ -1,0 +1,1 @@
+ arecord -D front:CARD=CODEC,DEV=0 -f S16_LE -V mono --rate=11025 >./r.wav 
